@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "A Google Inbox client for desktop running on Github Electron.",
   "scripts": {
-    "start": "node ./node_modules/.bin/gulp default"
+    "build": "node ./node_modules/.bin/gulp build"
   },
   "keywords": [
     "electron",

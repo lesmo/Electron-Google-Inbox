@@ -8,7 +8,7 @@ gulp.task('clean-dist', function() {
     return require('rimraf').sync(resolve(__dirname, 'dist'));
 });
 
-gulp.task('default', ['clean-dist'], function() {
+gulp.task('build', ['clean-dist'], function() {
     var electron = require('gulp-electron');
     var packageJson = require('./package.json');
     
@@ -18,16 +18,13 @@ gulp.task('default', ['clean-dist'], function() {
             packageJson: packageJson,
             release: './dist',
             cache: './cache',
-            version: 'v0.35.1',
+            version: 'v0.36.2',
             packaging: true,
             asar: true,
             platforms: [
-                'darwin',
-                'win32',
-                'linux',
+                'win32-ia32',
                 'darwin-x64',
-                'linux-x64',
-                'win32-x64',
+                'linux-ia32'
             ],
             platformResources: {
                 darwin: {
