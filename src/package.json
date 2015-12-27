@@ -1,0 +1,12 @@
+{
+  "name": "Electron-Google-Inbox",
+  "version": "1.0.0",
+  "description": "A Google Inbox client for desktop running on Github&#39;s Electron.",
+  "main": "main.js",
+  "keywords": [
+    "electron",
+    "google inbox"
+  ],
+  "author": "Sinuhé Coronel S.",
+  "license": "MIT"
+}

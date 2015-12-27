@@ -1,0 +1,19 @@
+{
+  "name": "Electron-Google-Inbox",
+  "version": "1.0.0",
+  "description": "A Google Inbox client for desktop running on Github&#39;s Electron.",
+  "scripts": {
+    "start": "node ./node_modules/.bin/gulp default"
+  },
+  "keywords": [
+    "electron",
+    "google inbox"
+  ],
+  "author": "Sinuhé Coronel S.",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-electron": "0.0.9",
+    "rimraf": "^2.5.0"
+  }
+}
