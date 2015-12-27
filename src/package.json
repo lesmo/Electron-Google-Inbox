@@ -1,6 +1,6 @@
 {
   "name": "Electron-Google-Inbox",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "A Google Inbox client for desktop running on Github&#39;s Electron.",
   "main": "main.js",
   "keywords": [
