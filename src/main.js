@@ -28,7 +28,7 @@ var startupOpts = {
     skipTaskbar: false,
     kiosk: false,
     title: 'Inbox',
-    icon: null,
+    icon: __dirname + '/electron-inbox-icon.png',
     show: false,
     frame: true,
     disableAutoHideCursor: false,
